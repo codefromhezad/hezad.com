@@ -5,39 +5,37 @@ html, body {
 	padding: 0;
 }
 
-h1 {
-	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
-	font-weight: 900;
-
-	font-size: 40px;
-	position: absolute;
-	left: 0;
-	top: -50px;
-	width: 100%;
-	text-align: left;
-	z-index: 1;
-	color: #fff;
+section, header, footer {
+	display: block;
 }
 
-#container {
+header {
+	overflow: hidden;
+}
+
+a {
+	color: #F07444;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid;
+}
+
+#canvas-wrapper,
+#header-infos {
+	width: 50%;
+	float: left;
+}
+
+#canvas-container {
 	display: block; 
 	margin: auto; 
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
 	position: relative;
-}
 
-#container canvas {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 400px;
-	height: 400px;
-}
-
-#container { 
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	transform: rotate(-45deg);
@@ -45,4 +43,183 @@ h1 {
 	-webkit-box-shadow: -10px 10px;
 	-moz-box-shadow: -10px 10px;
 	box-shadow: -10px 10px;
+}
+
+#canvas-container canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 300px;
+}
+
+#header-infos {
+	color: #fff;
+}
+
+#infos-container {
+	padding-right: 100px;
+}
+
+#infos-container h2 {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 700;
+}
+
+#header-infos p {
+	font-weight: 300;
+	color: #fff;
+	color: rgba(255,255,255,0.75);
+}
+
+.section {
+	padding: 50px 25px;
+	overflow: hidden;
+}
+
+.section.music { background: rgb(19, 105, 114); }
+.section.photos  { background: #0F1C28 }
+.section.empty-footer { background: rgb(243, 207, 91); }
+.section.interweb { background: rgb(103, 191, 167); }
+
+.section h2 {
+	margin: 0;
+	padding: 40px 0;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+	color: #fff;
+	letter-spacing: 4px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.section h2 span {
+	border-bottom: 4px solid;
+	padding-bottom: 5px;
+}
+
+.section .more {
+	padding: 50px 0;
+	clear: both;
+	text-align: center;
+	padding-bottom: 25px;
+	color: rgb(0, 0, 0);
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.song {
+	float: left;
+	width: 50%;
+	padding: 25px 0;
+}
+
+.song .inner-song {
+	margin: 0 25px;
+}
+
+.photo {
+	float: left;
+	width: 25%;
+	padding: 0;
+	margin: 25px 0;
+}
+
+.photo .inner-photo {
+	margin: 0 25px;
+}
+
+.photo a {
+	display: block;
+	position: relative;
+}
+
+.photo a img {
+	display: block;
+
+	-webkit-transition: -webkit-transform 0.25s;
+	-moz-transition: -moz-transform 0.25s;
+	-o-transition: -o-transform 0.25s;
+	transition: transform 0.25s;
+
+	transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+
+	-ms-transform: scale(1);
+   	-webkit-transform: scale(1); 
+    transform: scale(1);
+}
+
+.photo a:hover {
+	border: none;
+}
+
+.photo a:hover img {
+	-ms-transform: scale(1.1);
+   	-webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+
+.section > p {
+	color: #000;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+a.cta-button {
+	-webkit-transition: background-color 0.2s, color 0.2s;
+	-moz-transition: background-color 0.2s, color 0.2s;
+	transition: background-color 0.2s, color 0.2s;
+	background: transparent;
+	padding: 7px 10px;
+	text-transform: uppercase;
+	border: none !important;
+	font-weight: 700;
+	letter-spacing: 2px;
+	}
+}
+
+a.cta-button, a.cta-button::after, a.cta-button::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a.cta-button::before, a.cta-button::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+a.cta-button::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+a.cta-button::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+a.cta-button:hover {
+	color: rgb(243, 207, 91);
+}
+
+a.cta-button:hover::before, a.cta-button:hover::after, a.cta-button:focus::before, a.cta-button:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
 }

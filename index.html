@@ -1,19 +1,158 @@
 <!doctype html>
-
 <html>
 <head>
-	<link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
-	<link href='style.css' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<meta name="description" content="This is the website of Pierrick Varin">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+	<link href='style.css' rel='stylesheet' type='text/css'>
+	<link href='mobile.css' rel='stylesheet' type='text/css'>
+
+	<script src="soundcloud-api.js"></script>
 	<script src="jquery.js"></script>
 </head>
 <body>
-	<div id="wrapper">
-		<div id="container">
-			<h1>Hello world.</h1>
-			<canvas id="canvas1" width="400" height="400"></canvas>
+	<header>
+		<div id="canvas-wrapper">
+			<div id="canvas-container">
+				<canvas id="canvas1" width="300" height="300"></canvas>
+			</div>
 		</div>
-	</div>
+		<div id="header-infos">
+			<div id="infos-container">
+				<h2>Hello world</h2>
+
+				<p>
+					My name is Pierrick Varin.<br />
+					I am a co-founder of <a href="http://glitchstudio.com" target="_blank">Glitch</a>, a creative agency located in <a href="https://goo.gl/maps/S3Yke" target="_blank">Paris</a>.
+				</p>
+
+				<p>
+					I'm also a humble <a href="https://soundcloud.com/hezad" target="_blank">musician</a> when I'm not tinkering with electronics or coding stuff that will never leave my <span class="pre">/var/www/lab</span> folder.
+				</p>
+
+				<p>
+					Sometimes, I do push stuff on <a href="https://github.com/hezad" target="_blank">github</a> though.
+				</p>
+
+				<p>
+					Anyway, this is my website.
+				</p>
+			</div>
+		</div>
+	</header>
+
+	<section class="section music">
+		<h2><span>Some songs</span></h2>
+
+		<div class="song">
+			<div class="inner-song">
+				<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/cognition&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57"></iframe>
+			</div>
+		</div>
+
+		<div class="song">
+			<div class="inner-song">
+				<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/well-thats-kind-of-an-emergency-dude&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57"></iframe>
+			</div>
+		</div>
+
+		<div class="song">
+			<div class="inner-song">
+				<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/the-last-settler-from-mars&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57"></iframe>
+			</div>
+		</div>
+
+		<div class="song">
+			<div class="inner-song">
+				<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/i-as-a-tautology&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57"></iframe>
+			</div>
+		</div>
+
+		<div class="more">
+			<a href="https://soundcloud.com/hezad" target="_blank" class="cta-button soundcloud">More songs</a>
+		</div>
+	</section>
+
+	<section class="section photos">
+		<h2><span>Some photos from here and there</span></h2>
+
+		<div class="photo">
+			<div class="inner-photo">
+				<a target="_blank" href="https://instagram.com/p/wRaNntl_ba">
+					<img src="img/instagram-1.jpg" width="100%" height="100%">
+				</a>
+			</div>
+		</div>
+
+		<div class="photo">
+			<div class="inner-photo">
+				<a target="_blank" href="https://instagram.com/p/cMcufml_S7">
+					<img src="img/instagram-2.jpg" width="100%" height="100%">
+				</a>
+			</div>
+		</div>
+
+		<div class="photo">
+			<div class="inner-photo">
+				<a target="_blank" href="https://instagram.com/p/aAFuq1F_fK">
+					<img src="img/instagram-3.jpg" width="100%" height="100%">
+				</a>
+			</div>
+		</div>
+
+		<div class="photo">
+			<div class="inner-photo">
+				<a target="_blank" href="https://instagram.com/p/X93IvDl_dv">
+					<img src="img/instagram-4.jpg" width="100%" height="100%">
+				</a>
+			</div>
+		</div>
+
+		<div class="photo">
+			<div class="inner-photo">
+				<a target="_blank" href="https://instagram.com/p/WpQDUWF_Wy">
+					<img src="img/instagram-5.jpg" width="100%" height="100%">
+				</a>
+			</div>
+		</div>
+
+		<div class="photo">
+			<div class="inner-photo">
+				<a target="_blank" href="https://instagram.com/p/WWwXcTl_Vp">
+					<img src="img/instagram-6.jpg" width="100%" height="100%">
+				</a>
+			</div>
+		</div>
+
+		<div class="photo">
+			<div class="inner-photo">
+				<a target="_blank" href="https://instagram.com/p/WHhtiKF_WW">
+					<img src="img/instagram-7.jpg" width="100%" height="100%">
+				</a>
+			</div>
+		</div>
+		
+		<div class="photo">
+			<div class="inner-photo">
+				<a target="_blank" href="https://instagram.com/p/VjX4xyF_UU">
+					<img src="img/instagram-8.jpg" width="100%" height="100%">
+				</a>
+			</div>
+		</div>
+
+		<div class="more">
+			<a href="https://instagram.com/hezad" target="_blank" class="cta-button instagram">More photos</a>
+		</div>
+	</section>
+
+	<footer class="section empty-footer">
+		<h2><span>An almost-empty footer</span></h2>
+
+		<p>Just for the sake of it.</p>
+	</footer>
 
 	<script src="main.js"></script>
 </body>

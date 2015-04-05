@@ -95,10 +95,22 @@ setInterval( function() {
 }, 500 );
 
 $( function() {
+
+	/* Auto-height and margins of header elements */
 	$(window).resize( function() {
-		$container = $('#wrapper')
+		var winHeight = $(window).height();
+		
+		$('header').css({height: winHeight});
+
+		$container = $('#canvas-wrapper')
 		$container.css({
-			'margin-top': (($(window).height() - $('#container').height()) * 0.5) + 'px'
+			'margin-top': ((winHeight - $('#canvas-container').height()) * 0.5) + 'px'
+		});
+
+		$container = $('#header-infos')
+		$container.css({
+			'margin-top': ((winHeight - $('#infos-container').height()) * 0.5) + 'px'
 		});
 	}).resize();
+
 });

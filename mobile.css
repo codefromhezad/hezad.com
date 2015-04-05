@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+
+	#canvas-wrapper {
+		display: none;
+	}
+
+	#header-infos {
+		width: 100%;
+		float: none;
+	}
+
+	#infos-container {
+		  padding: 0 20px;
+	}
+
+	.section h2 {
+		line-height: 2em;
+	}
+
+	.song {
+		float: none;
+		padding: 25px 0;
+		width: auto;
+	}
+
+	.photo {
+		float: none;
+		width: auto;
+	}
+}
