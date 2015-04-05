@@ -1,0 +1,48 @@
+html, body {
+	background: #0F1C28;
+	font-family: 'Lato', 'sans-serif';
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 900;
+
+	font-size: 40px;
+	position: absolute;
+	left: 0;
+	top: -50px;
+	width: 100%;
+	text-align: left;
+	z-index: 1;
+	color: #fff;
+}
+
+#container {
+	display: block; 
+	margin: auto; 
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+
+#container canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400px;
+	height: 400px;
+}
+
+#container { 
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+
+	-webkit-box-shadow: -10px 10px;
+	-moz-box-shadow: -10px 10px;
+	box-shadow: -10px 10px;
+}
