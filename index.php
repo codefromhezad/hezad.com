@@ -1,4 +1,14 @@
-<!doctype html>
+<?php
+
+	function get_soundcloud_url($song_slug) {
+		return "http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/$song_slug&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57";
+	}
+
+	function soundcloud_iframe($song_slug) {
+		echo '<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="'.get_soundcloud_url($slong_slug).'"></iframe>';
+	}
+
+?><!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -58,25 +68,37 @@
 
 		<div class="song">
 			<div class="inner-song">
-				<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/cognition&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57"></iframe>
+				<?php soundcloud_iframe('time-mind'); ?>
 			</div>
 		</div>
 
 		<div class="song">
 			<div class="inner-song">
-				<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/well-thats-kind-of-an-emergency-dude&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57"></iframe>
+				<?php soundcloud_iframe('medication'); ?>
 			</div>
 		</div>
 
 		<div class="song">
 			<div class="inner-song">
-				<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/the-last-settler-from-mars&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57"></iframe>
+				<?php soundcloud_iframe('cognition'); ?>
 			</div>
 		</div>
 
 		<div class="song">
 			<div class="inner-song">
-				<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/i-as-a-tautology&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57"></iframe>
+				<?php soundcloud_iframe('well-thats-kind-of-an-emergency-dude'); ?>
+			</div>
+		</div>
+
+		<div class="song">
+			<div class="inner-song">
+				<?php soundcloud_iframe('the-last-settler-from-mars'); ?>
+			</div>
+		</div>
+
+		<div class="song">
+			<div class="inner-song">
+				<?php soundcloud_iframe('i-as-a-tautology'); ?>
 			</div>
 		</div>
 
