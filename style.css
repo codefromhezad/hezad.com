@@ -78,8 +78,7 @@ a:hover {
 	overflow: hidden;
 }
 
-.section.music { background: rgb(19, 105, 114); }
-.section.photos  { background: #0F1C28 }
+.section.photos  { background: rgb(19, 105, 114); }
 .section.empty-footer { background: rgb(243, 207, 91); }
 .section.interweb { background: rgb(103, 191, 167); }
 

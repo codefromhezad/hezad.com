@@ -63,50 +63,6 @@
 		</div>
 	</header>
 
-	<section class="section music">
-		<h2><span>Some songs</span></h2>
-
-		<div class="song">
-			<div class="inner-song">
-				<?php soundcloud_iframe('time-mind'); ?>
-			</div>
-		</div>
-
-		<div class="song">
-			<div class="inner-song">
-				<?php soundcloud_iframe('medication'); ?>
-			</div>
-		</div>
-
-		<div class="song">
-			<div class="inner-song">
-				<?php soundcloud_iframe('cognition'); ?>
-			</div>
-		</div>
-
-		<div class="song">
-			<div class="inner-song">
-				<?php soundcloud_iframe('well-thats-kind-of-an-emergency-dude'); ?>
-			</div>
-		</div>
-
-		<div class="song">
-			<div class="inner-song">
-				<?php soundcloud_iframe('the-last-settler-from-mars'); ?>
-			</div>
-		</div>
-
-		<div class="song">
-			<div class="inner-song">
-				<?php soundcloud_iframe('i-as-a-tautology'); ?>
-			</div>
-		</div>
-
-		<div class="more">
-			<a href="https://soundcloud.com/hezad" target="_blank" class="cta-button soundcloud">More songs</a>
-		</div>
-	</section>
-
 	<section class="section photos">
 		<h2><span>Some photos from here and there</span></h2>
 
