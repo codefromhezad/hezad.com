@@ -1,14 +1,4 @@
-<?php
-
-	function get_soundcloud_url($song_slug) {
-		return "http://w.soundcloud.com/player/?url=https://soundcloud.com/hezad/$song_slug&amp;auto_play=false&amp;buying=false&amp;liking=false&amp;download=false&amp;sharing=false&amp;show_artwork=false&amp;show_comments=false&amp;show_playcount=false&amp;show_user=true&amp;hide_related=false&amp;visual=false&amp;start_track=0&amp;callback=true&amp;theme_color=00aa57";
-	}
-
-	function soundcloud_iframe($song_slug) {
-		echo '<iframe class="soundcloud-frame iframe" width="100%" height="130" scrolling="no" frameborder="no" src="'.get_soundcloud_url($slong_slug).'"></iframe>';
-	}
-
-?><!doctype html>
+<!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -29,7 +19,6 @@
 	<link href='style.css' rel='stylesheet' type='text/css'>
 	<link href='mobile.css' rel='stylesheet' type='text/css'>
 
-	<script src="soundcloud-api.js"></script>
 	<script src="jquery.js"></script>
 </head>
 <body>
@@ -62,6 +51,32 @@
 			</div>
 		</div>
 	</header>
+	
+	<section class="section interweb">
+		<h2><span>Somes songs from now and then</span></h2>
+
+		<div class="song">
+			<div class="inner-song">
+				<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/152721942&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</div>
+		</div>
+
+		<div class="song">
+			<div class="inner-song">
+				<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/152721216&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</div>
+		</div>
+
+		<div class="song">
+			<div class="inner-song">
+				<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/18900768&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</div>
+		</div>
+
+		<div class="more">
+			<a href="https://soundcloud.com/hezad" target="_blank" class="cta-button soundcloud">More songs</a>
+		</div>
+	</section>
 
 	<section class="section photos">
 		<h2><span>Some photos from here and there</span></h2>
@@ -92,7 +107,7 @@
 
 		<div class="photo">
 			<div class="inner-photo">
-				<a target="_blank" href="https://instagram.com/p/X93IvDl_dv">
+				<a target="_blank" href="https://www.instagram.com/p/5nH6WnF_XT/">
 					<img src="img/instagram-4.jpg" width="100%" height="100%">
 				</a>
 			</div>
@@ -136,9 +151,14 @@
 	</section>
 
 	<footer class="section empty-footer">
-		<h2><span>An almost-empty footer</span></h2>
+		<h2><span>The end</span></h2>
 
-		<p>Just for the sake of it.</p>
+		<p>
+			You reached is the last section of my website. <br>
+			Thanks for passing by. <br>
+			<br>
+			Have a nice day !
+		</p>
 	</footer>
 
 	<script src="main.js"></script>

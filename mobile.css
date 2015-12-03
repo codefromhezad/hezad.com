@@ -19,12 +19,21 @@
 
 	.song {
 		float: none;
-		padding: 25px 0;
+		padding: 0 0;
 		width: auto;
+		margin-bottom: 25px;
+	}
+
+	.song .inner-song {
+		margin: 0;
 	}
 
 	.photo {
 		float: none;
 		width: auto;
+	}
+
+	.photo .inner-photo {
+		margin: 0;
 	}
 }
