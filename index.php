@@ -52,7 +52,7 @@
 		</div>
 	</header>
 	
-	<section class="section interweb">
+	<section class="section songs">
 		<h2><span>Somes songs from now and then</span></h2>
 
 		<div class="song">
@@ -147,6 +147,55 @@
 
 		<div class="more">
 			<a href="https://instagram.com/hezad" target="_blank" class="cta-button instagram">More photos</a>
+		</div>
+	</section>
+
+	<section class="section lab">
+		<h2><span>Experiments and other stuff</span></h2>
+
+		<div class="lab-item">
+			<div class="inner-lab-item">
+				<a target="_blank" href="http://lab.hezad.com/non-lineaire/">
+					<img src="img/thumb-non-lineaire.jpg" width="100%" height="100%">
+					<span class="lab-item-title">
+						Non-linéaire
+					</span>
+					<span class="lab-item-desc">
+						An exploration of nonlinear systems and their graphical possibilities (FR) 
+					</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="lab-item">
+			<div class="inner-lab-item">
+				<a target="_blank" href="http://lab.hezad.com/atlas/">
+					<img src="img/thumb-atlas.png" width="100%" height="100%">
+					<span class="lab-item-title">
+						Atlas
+					</span>
+					<span class="lab-item-desc">
+						Playing with procedural generation.
+					</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="lab-item">
+			<div class="inner-lab-item">
+				<a target="_blank" href="http://lab.hezad.com/squamagochi/">
+					<img src="img/thumb-squamagochi.png" width="100%" height="100%">
+					<span class="lab-item-title">
+						Squamagochi
+					</span>
+					<span class="lab-item-desc">
+						This cute little square has some stupid thoughts about his condition in the <em>squariverse</em>
+						when he's not whining about food or water.<br>
+						<br>
+						<small>This project (I never finished) was supposed to become some kind of Tamagochi.</small>
+					</span>
+				</a>
+			</div>
 		</div>
 	</section>
 

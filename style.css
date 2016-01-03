@@ -80,7 +80,8 @@ a:hover {
 
 .section.photos  { background: rgb(19, 105, 114); }
 .section.empty-footer { background: rgb(243, 207, 91); }
-.section.interweb { background: rgb(103, 191, 167); }
+.section.songs { background: rgb(103, 191, 167); }
+.section.lab { background: rgb(103, 191, 167); }
 
 .section h2 {
 	margin: 0;
@@ -161,6 +162,77 @@ a:hover {
 	-ms-transform: scale(1.1);
    	-webkit-transform: scale(1.1); 
     transform: scale(1.1);
+}
+
+.lab-item {
+	float: left;
+	width: 25%;
+	padding: 0;
+	margin: 25px 0;
+}
+
+.lab-item .inner-lab-item {
+	margin: 0 25px;
+}
+
+.lab-item a {
+	display: block;
+	position: relative;
+}
+
+.lab-item a img {
+	display: block;
+
+	-webkit-transition: -webkit-transform 0.25s;
+	-moz-transition: -moz-transform 0.25s;
+	-o-transition: -o-transform 0.25s;
+	transition: transform 0.25s;
+
+	transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+
+	-ms-transform: scale(1);
+   	-webkit-transform: scale(1); 
+    transform: scale(1);
+}
+
+.lab-item a .lab-item-title {
+	display: block;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -32px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.lab-item a .lab-item-desc {
+	-webkit-transition: -webkit-transform 0.25s, opacity 0.25s;
+	-moz-transition: -moz-transform 0.25s, opacity 0.25s;
+	-o-transition: -o-transform 0.25s, opacity 0.25s;
+	transition: transform 0.25s, opacity 0.25s;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	padding: 20px;
+    box-sizing: border-box;
+
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lab-item a:hover {
+	border: none;
+}
+
+.lab-item a:hover .lab-item-desc {
+    opacity: 1;
 }
 
 .section > p {
