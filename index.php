@@ -197,6 +197,64 @@
 				</a>
 			</div>
 		</div>
+
+		<div class="lab-item">
+			<div class="inner-lab-item">
+				<a target="_blank" href="http://lab.hezad.com/planet/">
+					<img src="img/thumb-planet.png" width="100%" height="100%">
+					<span class="lab-item-title">
+						Planet
+					</span>
+					<span class="lab-item-desc">
+						Playing with Three.js
+					</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="lab-item">
+			<div class="inner-lab-item">
+				<a target="_blank" href="http://lab.hezad.com/shader/">
+					<img src="img/thumb-shader.png" width="100%" height="100%">
+					<span class="lab-item-title">
+						Raytracing with shaders
+					</span>
+					<span class="lab-item-desc">
+						Yet another javascript raytracer. Rays, intersections and geometries are handled by shaders.
+					</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="lab-item">
+			<div class="inner-lab-item">
+				<a target="_blank" href="http://lab.hezad.com/clooney.html">
+					<img src="img/thumb-clooney.png" width="100%" height="100%">
+					<span class="lab-item-title">
+						UV Mapping with George Clooney
+					</span>
+					<span class="lab-item-desc">
+						You're welcome.
+					</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="lab-item">
+			<div class="inner-lab-item">
+				<a target="_blank" href="http://lab.hezad.com/canvaskanoid/">
+					<img src="img/thumb-canvaskanoid.png" width="100%" height="100%">
+					<span class="lab-item-title">
+						Canvaskanoid
+					</span>
+					<span class="lab-item-desc">
+						A crappy Arkanoid clone with sounds<br>
+						<br>
+						<small>(Click on the screen to start playing. Move your mouse to control the pad)</small>
+					</span>
+				</a>
+			</div>
+		</div>
 	</section>
 
 	<footer class="section empty-footer">
