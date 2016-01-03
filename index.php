@@ -255,6 +255,22 @@
 				</a>
 			</div>
 		</div>
+
+		<div class="lab-item">
+			<div class="inner-lab-item">
+				<a target="_blank" href="http://lab.hezad.com/webaudio/">
+					<img src="img/thumb-webaudio.png" width="100%" height="100%">
+					<span class="lab-item-title">
+						WebAudio
+					</span>
+					<span class="lab-item-desc">
+						Playing with the audio API in javascript.<br>
+						<br>
+						<small>(Click "play" to start)</small>
+					</span>
+				</a>
+			</div>
+		</div>
 	</section>
 
 	<footer class="section empty-footer">
