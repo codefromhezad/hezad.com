@@ -53,7 +53,7 @@
 	</header>
 	
 	<section class="section songs">
-		<h2><span>Somes songs from now and then</span></h2>
+		<h2><span>Some songs from now and then</span></h2>
 
 		<div class="song">
 			<div class="inner-song">
