@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta name="description" content="This is the website of Pierrick Varin">
+	<meta name="description" content="This is the website of Hezad / Pierrick Varin. A co-founder of Glitch, a creative studio located in Paris and a humble musician and tinkerer.">
 
 	<meta property="og:url" content="http://hezad.com" />
 	<meta property="og:description" content="This is the website of Pierrick Varin" />
@@ -34,7 +34,7 @@
 
 				<p>
 					My name is Pierrick Varin.<br />
-					I am a co-founder of <a href="http://glitchstudio.com" target="_blank">Glitch</a>, a creative agency located in <a href="https://goo.gl/maps/S3Yke" target="_blank">Paris</a>.
+					I am a co-founder of <a href="http://glitchstudio.com" target="_blank">Glitch</a>, a creative studio located in <a href="https://goo.gl/maps/S3Yke" target="_blank">Paris</a>.
 				</p>
 
 				<p>
