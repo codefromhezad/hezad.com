@@ -277,7 +277,7 @@
 		<h2><span>The end</span></h2>
 
 		<p>
-			You reached is the last section of my website. <br>
+			You reached the last section of my website. <br>
 			Thanks for passing by. <br>
 			<br>
 			Have a nice day !
