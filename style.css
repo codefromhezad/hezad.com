@@ -169,10 +169,18 @@ a:hover {
 	width: 25%;
 	padding: 0;
 	margin: 25px 0;
+	padding-top: 25%;
+    height: 0;
+    position: relative;
 }
 
 .lab-item .inner-lab-item {
-	margin: 0 25px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 25px; 
+	right: 25px;
+	height: 100%;
 }
 
 .lab-item a {
@@ -182,6 +190,7 @@ a:hover {
 
 .lab-item a img {
 	display: block;
+	width: 100%;
 
 	-webkit-transition: -webkit-transform 0.25s;
 	-moz-transition: -moz-transform 0.25s;

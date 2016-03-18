@@ -20,6 +20,8 @@
 	<link href='mobile.css' rel='stylesheet' type='text/css'>
 
 	<script src="jquery.js"></script>
+
+	<?php include('data.php'); ?>
 </head>
 <body>
 	<header>
@@ -153,124 +155,22 @@
 	<section class="section lab">
 		<h2><span>Experiments and other stuff</span></h2>
 
-		<div class="lab-item">
-			<div class="inner-lab-item">
-				<a target="_blank" href="http://lab.hezad.com/non-lineaire/">
-					<img src="img/thumb-non-lineaire.jpg" width="100%" height="100%">
-					<span class="lab-item-title">
-						Non-linéaire
-					</span>
-					<span class="lab-item-desc">
-						An exploration of nonlinear systems and their graphical possibilities (FR) 
-					</span>
-				</a>
+		<?php foreach($data['lab'] as $item_name => $item): ?>
+			<div class="lab-item">
+				<div class="inner-lab-item">
+					<a target="_blank" href="<?php echo $item['url']; ?>">
+						<img src="<?php echo $item['image']; ?>">
+						<span class="lab-item-title">
+							<?php echo $item_name; ?>
+						</span>
+						<span class="lab-item-desc">
+							<?php echo $item['desc']; ?> 
+						</span>
+					</a>
+				</div>
 			</div>
-		</div>
+		<?php endforeach; ?>
 
-		<div class="lab-item">
-			<div class="inner-lab-item">
-				<a target="_blank" href="http://lab.hezad.com/atlas/">
-					<img src="img/thumb-atlas.png" width="100%" height="100%">
-					<span class="lab-item-title">
-						Atlas
-					</span>
-					<span class="lab-item-desc">
-						Playing with procedural generation.
-					</span>
-				</a>
-			</div>
-		</div>
-
-		<div class="lab-item">
-			<div class="inner-lab-item">
-				<a target="_blank" href="http://lab.hezad.com/squamagochi/">
-					<img src="img/thumb-squamagochi.png" width="100%" height="100%">
-					<span class="lab-item-title">
-						Squamagochi
-					</span>
-					<span class="lab-item-desc">
-						This cute little square has some stupid thoughts about his condition in the <em>squariverse</em>
-						when he's not whining about food or water.<br>
-						<br>
-						<small>This project (I never finished) was supposed to become some kind of Tamagochi.</small>
-					</span>
-				</a>
-			</div>
-		</div>
-
-		<div class="lab-item">
-			<div class="inner-lab-item">
-				<a target="_blank" href="http://lab.hezad.com/planet/">
-					<img src="img/thumb-planet.png" width="100%" height="100%">
-					<span class="lab-item-title">
-						Planet
-					</span>
-					<span class="lab-item-desc">
-						Playing with Three.js
-					</span>
-				</a>
-			</div>
-		</div>
-
-		<div class="lab-item">
-			<div class="inner-lab-item">
-				<a target="_blank" href="http://lab.hezad.com/shader/">
-					<img src="img/thumb-shader.png" width="100%" height="100%">
-					<span class="lab-item-title">
-						Raytracing with shaders
-					</span>
-					<span class="lab-item-desc">
-						Yet another javascript raytracer. Rays, intersections and geometries are handled by shaders.
-					</span>
-				</a>
-			</div>
-		</div>
-
-		<div class="lab-item">
-			<div class="inner-lab-item">
-				<a target="_blank" href="http://lab.hezad.com/clooney.html">
-					<img src="img/thumb-clooney.png" width="100%" height="100%">
-					<span class="lab-item-title">
-						UV Mapping with George Clooney
-					</span>
-					<span class="lab-item-desc">
-						You're welcome.
-					</span>
-				</a>
-			</div>
-		</div>
-
-		<div class="lab-item">
-			<div class="inner-lab-item">
-				<a target="_blank" href="http://lab.hezad.com/canvaskanoid/">
-					<img src="img/thumb-canvaskanoid.png" width="100%" height="100%">
-					<span class="lab-item-title">
-						Canvaskanoid
-					</span>
-					<span class="lab-item-desc">
-						A crappy Arkanoid clone with sounds<br>
-						<br>
-						<small>(Click on the screen to start playing. Move your mouse to control the pad)</small>
-					</span>
-				</a>
-			</div>
-		</div>
-
-		<div class="lab-item">
-			<div class="inner-lab-item">
-				<a target="_blank" href="http://lab.hezad.com/webaudio/">
-					<img src="img/thumb-webaudio.png" width="100%" height="100%">
-					<span class="lab-item-title">
-						WebAudio
-					</span>
-					<span class="lab-item-desc">
-						Playing with the audio API in javascript.<br>
-						<br>
-						<small>(Click "play" to start)</small>
-					</span>
-				</a>
-			</div>
-		</div>
 	</section>
 
 	<footer class="section empty-footer">
