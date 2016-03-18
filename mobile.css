@@ -6,15 +6,40 @@
 
 	#header-infos {
 		width: 100%;
-		float: none;
 	}
 
 	#infos-container {
-		  padding: 0 20px;
+		padding: 0 20px;
+		margin: 0;
+		font-size: 16px;
+	}
+
+	#infos-container h2 {
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+
+	#infos-container .pre, #infos-container a {
+	    font-size: 15px;
+	}
+
+	.section {
+		padding: 25px 25px;
 	}
 
 	.section h2 {
-		line-height: 2em;
+		padding: 0;
+		font-size: 1.3em;
+		line-height: 38px;
+	}
+
+	.section h2 span {
+	    border-bottom: 3px solid;
+	    padding-bottom: 2px;
+	}
+
+	.section .more {
+		padding-top: 20px;
 	}
 
 	.song {
@@ -35,5 +60,17 @@
 
 	.photo .inner-photo {
 		margin: 0;
+	}
+
+	.lab-item {
+		float: none;
+    	width: 100%;
+    	padding-top: 100%;
+    	margin-bottom: 50px;
+	}
+
+	.lab-item .inner-lab-item {
+		left: 0;
+		right: 0;
 	}
 }
