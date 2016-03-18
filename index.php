@@ -83,69 +83,15 @@
 	<section class="section photos">
 		<h2><span>Some photos from here and there</span></h2>
 
-		<div class="photo">
-			<div class="inner-photo">
-				<a target="_blank" href="https://instagram.com/p/wRaNntl_ba">
-					<img src="img/instagram-1.jpg" width="100%" height="100%">
-				</a>
+		<?php foreach($data['photos'] as $item): ?>
+			<div class="photo">
+				<div class="inner-photo">
+					<a target="_blank" href="<?php echo $item['url']; ?>">
+						<img src="<?php echo $item['image']; ?>" width="100%" height="100%">
+					</a>
+				</div>
 			</div>
-		</div>
-
-		<div class="photo">
-			<div class="inner-photo">
-				<a target="_blank" href="https://instagram.com/p/cMcufml_S7">
-					<img src="img/instagram-2.jpg" width="100%" height="100%">
-				</a>
-			</div>
-		</div>
-
-		<div class="photo">
-			<div class="inner-photo">
-				<a target="_blank" href="https://instagram.com/p/aAFuq1F_fK">
-					<img src="img/instagram-3.jpg" width="100%" height="100%">
-				</a>
-			</div>
-		</div>
-
-		<div class="photo">
-			<div class="inner-photo">
-				<a target="_blank" href="https://www.instagram.com/p/5nH6WnF_XT/">
-					<img src="img/instagram-4.jpg" width="100%" height="100%">
-				</a>
-			</div>
-		</div>
-
-		<div class="photo">
-			<div class="inner-photo">
-				<a target="_blank" href="https://instagram.com/p/WpQDUWF_Wy">
-					<img src="img/instagram-5.jpg" width="100%" height="100%">
-				</a>
-			</div>
-		</div>
-
-		<div class="photo">
-			<div class="inner-photo">
-				<a target="_blank" href="https://instagram.com/p/WWwXcTl_Vp">
-					<img src="img/instagram-6.jpg" width="100%" height="100%">
-				</a>
-			</div>
-		</div>
-
-		<div class="photo">
-			<div class="inner-photo">
-				<a target="_blank" href="https://instagram.com/p/WHhtiKF_WW">
-					<img src="img/instagram-7.jpg" width="100%" height="100%">
-				</a>
-			</div>
-		</div>
-		
-		<div class="photo">
-			<div class="inner-photo">
-				<a target="_blank" href="https://instagram.com/p/VjX4xyF_UU">
-					<img src="img/instagram-8.jpg" width="100%" height="100%">
-				</a>
-			</div>
-		</div>
+		<?php endforeach; ?>
 
 		<div class="more">
 			<a href="https://instagram.com/hezad" target="_blank" class="cta-button instagram">More photos</a>

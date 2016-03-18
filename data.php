@@ -1,5 +1,39 @@
 <?php 
 	$data = array(
+		'photos' => array(
+			array(
+				'url'   => 'https://instagram.com/p/wRaNntl_ba',
+				'image' => 'img/instagram-1.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/cMcufml_S7',
+				'image' => 'img/instagram-2.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/aAFuq1F_fK',
+				'image' => 'img/instagram-3.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/5nH6WnF_XT',
+				'image' => 'img/instagram-4.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/WpQDUWF_Wy',
+				'image' => 'img/instagram-5.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/WWwXcTl_Vp',
+				'image' => 'img/instagram-6.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/WHhtiKF_WW',
+				'image' => 'img/instagram-7.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/VjX4xyF_UU',
+				'image' => 'img/instagram-8.jpg'
+			)
+		),
 		'lab' => array(
 			'Non-linéaire' => array(
 				'url'   => 'http://lab.hezad.com/non-lineaire/',
