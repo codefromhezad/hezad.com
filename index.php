@@ -35,20 +35,25 @@
 				<h2>Hello world</h2>
 
 				<p>
-					My name is Pierrick Varin.<br />
-					I am a co-founder of <a href="http://glitchstudio.com" target="_blank">Glitch</a>, a creative studio located in <a href="https://goo.gl/maps/S3Yke" target="_blank">Paris</a>.
+					My name is Pierrick Varin.
 				</p>
 
 				<p>
-					I'm also a humble <a href="https://soundcloud.com/hezad" target="_blank">musician</a> when I'm not tinkering with electronics or coding stuff that will never leave my <span class="pre">/var/www/lab</span> folder.
+					I co-founded a creative studio called <a href="http://glitchstudio.com" target="_blank">Glitch</a> along with Julien Chapat and Jocelyn Gravot.
 				</p>
 
 				<p>
-					Sometimes, I do push stuff on <a href="https://github.com/hezad" target="_blank">github</a> though.
+					I'm also a humble <a href="https://soundcloud.com/hezad" target="_blank">musician</a> when I'm not tinkering with electronics or coding things that will never leave my <span class="pre">/var/www/lab</span> folder.
 				</p>
 
 				<p>
-					Anyway, this is my website.
+					You can find me on <a href="https://github.com/hezad" target="_blank">Github</a> where I'm definitely not active enough, 
+					on <a href="https://twitter.com/hezad" target!"_blank">Twitter</a> where I retweet stuff occasionally, 
+					and on <a href="https://www.linkedin.com/in/pierrick-varin-0739bb29" target="_blank">LinkedIn</a> where I merely put in an appearance.
+				</p>
+
+				<p>
+					Anyway, this is my website !
 				</p>
 			</div>
 		</div>
@@ -124,9 +129,8 @@
 
 		<p>
 			You reached the last section of my website. <br>
-			Thanks for passing by. <br>
 			<br>
-			Have a nice day !
+			Thanks for passing by, have a nice day !
 		</p>
 	</footer>
 

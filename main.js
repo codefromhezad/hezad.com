@@ -82,35 +82,17 @@ var Glitch = function(canvasId) {
 	}
 }
 
-var glitch = new Glitch("canvas1");
-var cheight = 20;
 
-glitch.generate(cheight);
-
-setInterval( function() {
-	//cheight = Math.floor(glitch.height / (16 + parseInt(16 * Math.random()) ) - 1);
-
-	glitch.generate(cheight);
-
-}, 500 );
 
 $( function() {
 
-	/* Auto-height and margins of header elements */
-	$(window).resize( function() {
-		var winHeight = $(window).height();
-		
-		$('header').css({height: winHeight});
+	var glitch = new Glitch("canvas1");
+	var cheight = 20;
 
-		$container = $('#canvas-wrapper')
-		$container.css({
-			'margin-top': ((winHeight - $('#canvas-container').height()) * 0.5) + 'px'
-		});
+	glitch.generate(cheight);
 
-		$container = $('#header-infos')
-		$container.css({
-			'margin-top': ((winHeight - $('#infos-container').height()) * 0.5) + 'px'
-		});
-	}).resize();
+	setInterval( function() {
+		glitch.generate(cheight);
+	}, 500 );
 
 });
