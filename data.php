@@ -35,6 +35,11 @@
 			)
 		),
 		'lab' => array(
+			'Raymarching the menger sponge' => array(
+				'url'   => 'http://lab.hezad.com/distance/',
+				'image' => 'img/thumb-raymarching.png',
+				'desc'  => 'A raymarched Menger Sponge with shaders via WebGL'
+			),
 			'Non-linéaire' => array(
 				'url'   => 'http://lab.hezad.com/non-lineaire/',
 				'image' => 'img/thumb-non-lineaire.jpg',
