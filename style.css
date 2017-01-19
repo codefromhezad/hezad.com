@@ -162,10 +162,17 @@ a:hover {
 .photo a {
 	display: block;
 	position: relative;
+	padding-top: 100%;
 }
 
-.photo a img {
+.photo a .inner {
 	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent no-repeat center / cover;
 
 	-webkit-transition: -webkit-transform 0.25s;
 	-moz-transition: -moz-transform 0.25s;
@@ -185,7 +192,7 @@ a:hover {
 	border: none;
 }
 
-.photo a:hover img {
+.photo a:hover .inner {
 	-ms-transform: scale(1.1);
    	-webkit-transform: scale(1.1); 
     transform: scale(1.1);

@@ -2,6 +2,22 @@
 	$data = array(
 		'photos' => array(
 			array(
+				'url'   => 'https://instagram.com/p/BN1vs3WhqMm/',
+				'image' => 'img/instagram-12.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/BIgClDVhuQG/',
+				'image' => 'img/instagram-9.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/BIgCKHvBvEw/',
+				'image' => 'img/instagram-10.jpg'
+			),
+			array(
+				'url'   => 'https://instagram.com/p/BIawXSbBDbr/',
+				'image' => 'img/instagram-11.jpg'
+			),
+			array(
 				'url'   => 'https://instagram.com/p/wRaNntl_ba',
 				'image' => 'img/instagram-1.jpg'
 			),

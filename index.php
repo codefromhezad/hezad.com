@@ -92,7 +92,7 @@
 			<div class="photo">
 				<div class="inner-photo">
 					<a target="_blank" href="<?php echo $item['url']; ?>">
-						<img src="<?php echo $item['image']; ?>" width="100%" height="100%">
+						<div class="inner" style="background-image: url('<?php echo $item['image']; ?>');"></div>
 					</a>
 				</div>
 			</div>
